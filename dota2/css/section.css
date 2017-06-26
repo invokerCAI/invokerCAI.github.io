@@ -1,0 +1,123 @@
+.section{
+	
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto 50px;
+	/*margin-top:2px ;*/
+	/*background-color: red;*/
+}
+
+.section1{
+	width: 750px;
+	height: 95px;
+	float: left;
+	padding: 1px 0;
+	/*margin: 6px auto;*/
+}
+
+
+.section1>a{
+	box-sizing:border-box ;
+	display: block;	
+	width:245px ;
+	height: 93px;
+	float: left;
+	margin-right:5px ;
+	background-image: url(../img/section/u_left_buttons.png);
+}
+.section1>a>span{
+	display: block;
+	position: relative;	
+	width:246px ;
+	height: 93px;
+	opacity: 0;
+}
+
+.section1_img1{
+	background-position: -0px -0px ;
+}
+
+.section1_img2{
+	background-position: -252px -0px ;
+}
+.section1_img3{
+	background-position: -504px -0px ;
+}
+.section1_img1>span:hover{
+	transition: opacity 0.5s;
+	opacity: 1;
+	background-image:url(../img/section/u_left_buttons.png);
+	background-position: -0px -94px ;		
+}
+
+.section1_img2>span:hover{
+	transition: opacity 0.5s;
+	opacity: 1;
+	background-image:url(../img/section/u_left_buttons.png);
+	background-position: -252px -94px ;		
+}
+.section1_img3>span:hover{
+	transition: opacity 0.5s;
+	opacity: 1;
+	background-image:url(../img/section/u_left_buttons.png);
+	background-position: -504px -94px ;		
+}
+
+
+
+
+.section2{
+	width: 420px;
+	height: 95px;	
+	/*background-color: #000000;*/
+	float: right;
+	
+}
+.section2>a{
+	display: block;
+	width: 140px;
+	height: 95px;
+	float: left;
+	background-image: url(../img/section/u_right_buttons.png);
+}
+.section2>a>span{
+	display: block;
+	position: relative;	
+	width:140px ;
+	height: 95px;
+	opacity: 0;
+}
+
+.section2_img1{
+	
+	background-image: url(../img/section/u_right_buttons.png);
+	background-position: -0px -0px ;
+}
+.section2_img2{
+
+	background-image: url(../img/section/u_right_buttons.png);
+	background-position: -140px -0px ;
+	
+}
+.section2_img3{
+	
+	background-position: -280px -0px ;
+}
+.section2_img1>span:hover{
+	opacity: 1;
+	background-image: url(../img/section/u_right_buttons.png);
+	transition: opacity 0.5s;
+	background-position: -0px -96px ;
+}
+.section2_img2>span:hover{
+	opacity: 1;
+	background-image: url(../img/section/u_right_buttons.png);
+	transition: opacity 0.5s;
+	background-position: -140px -96px ;
+}
+.section2_img3>span:hover{
+	opacity: 1;
+	background-image: url(../img/section/u_right_buttons.png);
+	transition: opacity 0.5s;
+	background-position: -280px -96px ;
+}

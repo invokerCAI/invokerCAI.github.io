@@ -1,0 +1,248 @@
+.box_center_botton{
+	width: 1200px;
+	height: 520px;
+	margin: 0 auto;
+	margin-bottom:50px ;
+	/*background-color: blue;*/
+}
+
+.botton_box1{
+	width: 750px;
+	height: 520px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.spzx_icon{
+    background-position: -3px -212px;
+    
+}
+.spzx_con{
+	width: 100%;
+	height: 475px;
+	/*background-color: red;*/
+
+	
+}
+.spzx_con_tab{
+	width: 100%;
+	height: 38px;
+}
+.spzx_con_tab>li{
+	float: left;
+	height: 38px;
+	width: 25%;
+	border: 1px solid #333333;
+	border-right-color: transparent ;
+	/*border-right:none ;*/
+	cursor: pointer;
+    color: #ccc;
+    -webkit-transition: border-color 0.5s ease;
+    -moz-transition: border-color 0.5s ease;
+    transition: border-color 0.5s ease;
+    font-size:14px ;
+}
+.spzx_con_tab>li:nth-of-type(4){
+	border-right: 1px solid #333333;
+}
+.spzx_con_tab>li:hover {
+	border: 1px solid #fff;
+	
+}
+
+.spzx_con_div{
+	position: relative;
+}
+.spzx_con_con{
+	width: 100%;
+	height: 432px;
+	border: 1px solid #333;
+	/*background-color: red;*/
+	padding-top: 15px;
+	padding-left:27px ;
+	position: absolute;
+	display: none;
+	
+}
+
+
+
+
+.spzx_con_con>li{
+	width: 225px;
+	height:190px;
+	float: left;
+	border: 1px solid rgba(200,200,200,0);
+	border-color: ;
+	margin-left:5px ;
+	margin-top:5px ;
+	
+}
+.spzx_con_con>li>a{
+	display: block;
+	width: 225px;
+	height:190px;
+	/*background-color: red;*/
+}
+.spzx_con_con>li>a>img{
+	width: 200px;
+	height: 117px;
+	/*background-color: red;*/
+	margin-left:12.5px ;
+	margin-top:12.5px ;
+}
+.spzx_con_con>li>a>p{
+	width: 200px;
+	height: 117px;
+	margin-left:12.5px ;
+    font-size: 15px;
+    color: #999;
+}
+.spzx_con_con>li:hover{
+	border: 1px solid #00b7f4;
+	transition: all 0.5s;
+	
+}
+.spzx_con_con>li:hover p{
+	color: #00b7f4;
+}
+
+.spzx_con_tab>li>span{
+	display: block;
+	width: 100%;
+	height: 38px;
+	position: relative;
+	text-align: center;
+	line-height: 38px;
+}
+
+
+.botton_box2{
+	width: 420px;
+	height: 515px;
+	float: left;
+	margin-left: 30px;
+	/*background-color: royalblue;*/
+	
+}
+.kfzx_icon{
+	background-position: -3px -253px;
+}
+
+.kfzx_con{
+	width: 100%;
+	height: 470px;
+	padding: 20px 20px 5px;
+	background-color: #15161a;
+	
+}
+.kfzx_con_search{
+	width: 380px;
+	height: 35px;
+	/*background-color: red;*/
+	position: relative;
+}
+.kfzx_con_search>input{
+	width: 280px;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid #08080a;
+    background-color: #111214;
+    outline: none;
+    color: #999;
+    font-family: "Microsoft YaHei";
+    line-height: 35px;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*box-sizing: border-box;*/
+}
+.kfzx_con_search>span{
+	display: block;
+	width: 35px;
+	height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 245px;
+    margin-right: 0;
+    background-color: #f74e4e;
+    border-radius: 2px;
+    cursor: pointer;
+    background-image: url(../img/sprites/data2.home.icons.png);
+    background-position: 6px -692px;
+}
+
+.kfzx_con_search>a{
+	display: block;
+	float: right;
+    /*margin-left: 10px;*/
+    width: 90px;
+    background-color: #565864;
+    color: #ccc;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.kfzx_con_q{
+	width: 380px;
+	height: 370px;
+	margin-top:25px ;
+	/*background-color: red;*/
+	
+}
+
+.kfzx_con_q>p{
+	padding-bottom: 10px;
+    font-size: 16px;
+    color: #ccc;
+    border-bottom: 1px solid #333;
+}
+.kfzx_con_q_a{
+	width: 380px;
+	height: 333px;
+	margin-top:10px ;
+	/*background-color: red;*/
+	    vertical-align: middle;
+}
+.kfzx_con_q_a>li{
+	width: 380px;
+	height: 37px;
+}
+
+
+.kfzx_con_q_a>li>span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-image: url(../img/sprites/data2.home.icons.png);
+	background-position: -3px -803px;
+	float: left;
+	margin-right:10px;
+	margin-top:6px ;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.kfzx_con_q_a>li:nth-of-type(1) span{
+	background-position: -3px -825px;
+
+}
+.kfzx_con_q_a>li:nth-of-type(1) a{
+	color: #ed4c4c;
+}
+
+.kfzx_con_q_a>li>a{
+	display: block;
+    max-width: 360px;
+	height: 36px;
+	float: left;
+	color: #ccc;
+	vertical-align: middle;
+}
+.kfzx_con_q_a>li:hover span{
+	background-position:  -3px -814px;
+}
+.kfzx_con_q_a>li:hover a{
+    color: #00b7f4;
+}

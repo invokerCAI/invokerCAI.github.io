@@ -1,0 +1,342 @@
+.box_center{
+	width: 1200px;
+	height: 533px;
+	margin: 0 auto 50px;
+	/*background-color: red;*/
+	
+}
+
+.box_center1{
+	width: 750px;
+	height: 533px;
+	margin: 0 auto 50px;
+	float: left;
+	/*background-color: gold;*/
+	
+}
+
+.div_top{
+	height: 35px;
+	/*background-color: red;*/
+	margin-bottom: 10px;
+	
+}
+
+.hdzx_icon{
+	 background-position: -3px -85px;
+}
+
+.box_center1_con{
+	width: 750px;
+	height: 488px;
+	/*position: relative;*/
+	/*background-color: greenyellow;*/
+	box-sizing: border-box;
+	border: 1px solid  #333333;
+	/*margin-top:-1px ;*/
+	position: relative;
+}
+
+.box_center1_con_div{
+	width: 666px;
+	height: 398px;
+	margin: 40px 40px 10px 40px;
+    position: absolute;
+    display:none ;
+}
+
+.box_center1_con_gd{
+	width: 114px;
+    height: 28px;
+    background-image: url(../img/sprites/activities_01.png);
+    background-position: 0px 0px;
+    position: absolute;
+  	bottom: -1px;
+  	left: 318px;
+    cursor: pointer;	
+}
+
+.box_center1_con_gd:hover{
+    background-position: 0px -28px;
+	
+}
+
+.box_center2{
+	width: 420px;
+	height: 519px;
+    float:right ;
+
+}
+
+.hdzx_tab{
+	position: relative;
+	float: right;
+	width: 563px;
+	height: 40px;
+	right: 0;
+	margin-top:6px ;
+	z-index: 2;
+}
+.hdzx_tab ul li{
+	width: 140px;
+	height: 40px;
+	float: left;
+
+    
+}
+.hdzx_tab ul li div{
+	width: 140px;
+	height: 20px;
+	border-right:1px solid #333 ;
+	font-size: 14px;		
+	text-align: center;
+	color: #898989;
+	
+}
+.hdzx_tab ul li:hover{
+	border-bottom:1px solid #00c0ff ;
+	color:#00c0ff ;
+}
+
+
+.hdzx_tab ul li:nth-of-type(4) div{
+	width: 140px;
+	border-right:none;
+	
+}
+
+
+.box_center1_con_div1{
+	width: 666px;
+	height: 184px;
+	/*background-color: red*/
+	
+}
+
+
+.box_center1_con_div2{
+	width: 666px;
+	height: 184px;
+	margin-top: 30px;
+}
+
+
+.hd1{
+	float: left;
+	width: 310px;
+	height: 182px;
+	border: 1px ;
+	/*background-color: red;*/
+}
+
+.box_center1_con_div1>.hd1:nth-of-type(1){
+	margin-right:40px ;
+}
+
+.box_center1_con_div2>.hd1:nth-of-type(1){
+	margin-right:40px ;
+}
+.hd1_img{
+	width: 310px;
+	height: 150px;
+	position: relative;
+	
+}
+.hd1_img:hover{
+	outline: 1px solid #00b7f4;
+	transition: all 0.5s;
+}
+
+.hd1_img>img{
+	width: 310px;
+	height: 150px;
+	/*margin: 1px;*/
+	position: absolute;
+}
+.hd1_word{
+	margin-top: 10px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    
+}
+
+.bbgx{
+	width: 420px;
+	height: 297px;
+}
+.bbgx_top{
+	font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.bbgx_icon{
+	background-position: -3px -127px;
+}
+
+
+
+/*版本更新的轮播图*/
+.bbgx_con{
+	width: 420px;
+	height: 252px;
+	padding-top:30px ;
+	padding-bottom:10px ;
+	background-color: #15161a;
+}
+.bbgx_con ul{
+	width:420px;
+	height: 168px;
+	position: relative;
+
+}
+.bbgx_con>ul>li{
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+
+
+.bbgx_con>ul>li:nth-of-type(1){
+	
+	width: 230px;
+	height: 168px;
+	position: absolute;
+    top: 0;
+    left: 95px;
+	z-index: 3;
+	background-image: url(../img/banner/AA1.jpg);
+}
+
+.bbgx_con>ul>li:nth-of-type(2){
+	
+	width: 230px;
+	height: 168px;
+	position: absolute;
+	right: 0;
+	top:0;
+	transform: scale(0.9);
+	z-index: 2;
+	background-image: url(../img/banner/AA2.jpg);
+	
+}
+.bbgx_con>ul>li:nth-of-type(3){
+	
+	width: 230px;
+	height: 168px;
+	position: absolute;
+	right: 20px;
+	top:0;
+	z-index: 4;
+	transform: scale(0.9);
+	z-index: 1;
+	background-image: url(../img/banner/AA3.jpg);
+	
+}
+
+.bbgx_con>ul>li:nth-of-type(4){
+	
+	width: 230px;
+	height: 168px;
+	position: absolute;
+	left: 20px;
+	top:0;
+	
+	transform: scale(0.9);
+	z-index: 1;
+	background-image: url(../img/banner/AA4.jpg);
+	
+}
+
+.bbgx_con>ul>li:nth-of-type(5){
+	
+	width: 230px;
+	height: 168px;
+	position: absolute;
+	left: 0;
+	top:0;
+	transform: scale(0.9);
+	z-index: 2;
+	background-image: url(../img/banner/AA5.jpg);
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*自定义地图*/
+.zdydt{
+	
+	width: 420px;
+	height: 202px;
+	margin-top:20px ;
+	/*background-color: blueviolet;*/
+}
+.zdydt_top{
+	font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    /*overflow: hidden;*/
+    margin-bottom: 10px;
+}
+.zdydt_icon{
+	background-position: -3px -169px;;
+}
+.zdydt_con{
+	width: 420px;
+	height: 157px;
+	/*background-color: blueviolet;*/	
+}
+.zdydt_con1{
+	width: 202px;
+	height: 157px;
+	float: left;
+	background-color: #222328;
+	color: #999;
+}
+.zdydt_con .zdydt_con1:nth-of-type(1){
+	margin-right: 16px;
+}
+.zdydt_con1>a{
+	display: block;
+	width: 202px;
+	height:117px;
+	border: 1px solid #222328;
+	
+}
+..zdydt_con1>a>img{
+	width: 202px;
+	height:117px;
+	/*background-color: deepskyblue;*/
+	
+}
+.zdydt_con1>span{
+	display: block;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	/*background-color: gold;*/
+	text-align: center;
+	line-height: 40px;
+
+}
+.zdydt_con1:hover a{
+	transition: all 0.5s;
+	border: 1px solid #00b7f4;
+	
+}
+.zdydt_con1:hover span{
+	color: #00b7f4;
+}

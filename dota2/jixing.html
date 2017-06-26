@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				position: relative;
+				width: 800px;
+				height: 400px;
+				margin: 0 auto;
+				overflow: hidden;
+				transition: all 0.5s;
+				
+			}
+			li{
+				list-style: none;
+				
+			}
+			
+			#test_ul1{
+				width: 400%;
+				height:100%;
+				position: absolute;
+				left: 0;
+			}
+			
+			#test_ul1>li{
+				width:25%;
+				height:100%;
+				float: left;
+			}
+			
+			#test_ul1>li>img{
+				width: 100%;
+				height:100%;
+			}
+			#test_ul2{
+				margin-top:20px ;
+				margin-right:20px ;
+				
+				position: absolute;
+				right: 0;
+			
+			}
+			
+			#test_ul2>li{
+				width: 100px;
+				height: 50px;
+				border: 1px solid black;
+				margin-bottom:20px ;
+			}
+			#test_ul2>li>img{
+				width: 100px;
+				height: 50px;
+				
+			}
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div class="">
+			<ul id="test_ul1">
+				<li><img src="img/banner/AA1.jpg"/></li>
+				<li><img src="img/banner/AA2.jpg"/></li>
+				<li><img src="img/banner/AA3.jpg"/></li>
+				<li><img src="img/banner/AA4.jpg"/></li>
+			</ul>
+			
+			<ul id="test_ul2">
+				<li><img src="img/banner/AA1.jpg"/></li>
+				<li><img src="img/banner/AA2.jpg"/></li>
+				<li><img src="img/banner/AA3.jpg"/></li>
+				<li><img src="img/banner/AA4.jpg"/></li>
+			</ul>
+		</div>
+	<script type="text/javascript" src="js/banner.js" ></script>
+		<script>
+			var obj = {
+				prev: 'test_l', //上一张btn的Id，选填
+				next: 'test_r', //下一张btn的Id，选填
+				sliderList: 'test_ul1', //轮播图列表Id，必填
+				sliderItem: 'test_ul2', //圆圈列表Id，选填
+				timeAuto: 2000, //自动轮播间隔时间，选填默认2000毫秒
+				transition: 500, //轮播图滚动过度时间，选填默认500毫秒
+				pointStyle: ['border', '1px solid #f00'] //圆圈选中样式，有圆圈列表必填；没有圆圈列表不填
+			}
+			cBanner1(obj);
+			
+		</script>
+	
+			
+	</body>
+</html>

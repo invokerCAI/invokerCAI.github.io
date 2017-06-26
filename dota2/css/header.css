@@ -1,0 +1,153 @@
+header{	
+	display: block;/*兼容IE低版本*/
+	width: 100%;
+	height: 80px;
+	background-image: url(../img/header/header.nav.bg.png);
+	
+}
+
+.header_nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.header_nav_log{
+	width: 260px;
+	height: 40px;
+	display: block;
+	margin-top: 18px;
+	margin-right:20px;	
+	background-image: url(../img/header/logo.png);
+	float: left;
+	
+}
+.header_line_nav{
+	float: left;
+	position: relative;
+	
+}
+.header_line_nav>div{
+	width: 89px;
+	/*height: 80px;*/
+	float: left;
+	padding-top: 20px;
+	position: relative;
+	
+}
+
+.header_line_nav>div>a{
+	
+	width: 75px;
+	height: 34px;
+	display: block;
+	margin:  auto;
+	/*background-color: red;*/
+	color: #827c79;
+}
+
+.header_line_nav>div>a>span:nth-of-type(1){	
+	
+	width: 75px;
+	height: 16px;
+	font-size: 16px;
+	display: block;
+	margin-bottom:5px ;
+}
+.header_line_nav>div>a>span:nth-of-type(2){	
+	
+	transform: scale(0.75);/*让下面的span的缩小，达到字体变小的目的*/
+	width: 75px;
+	height: 16px;
+	font-size: 9px;
+	display: block;
+}
+
+.nav_hover{
+	display: none;
+	position: absolute;
+	width: 75px;
+	/*width: 100%;*/
+	margin:15px 7px 0;
+	height: 249px;
+	padding-top:10px ;
+	position: absolute;
+	font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-size:cover ;
+	background-image: url(../img/header/data2.home.submenu.bg.png);
+	/*margin-top:15px ;*/	
+	z-index: 4;
+}
+.nav_hover>a{
+	display: block;
+	width: 75px;
+	height: 30px;
+    color: #827c79;
+    text-align: center;
+}
+
+.header_line_nav>div:hover{
+	/*width: 89px;*/
+	/*position: relative;*/
+	height: 329px;
+    background-size:cover ;
+	background-image: url(../img/header/data2.home.nav.hover.bg.png);
+	z-index: 55;
+	/*padding: 23px 7px;*/
+}
+.header_line_nav>div:hover .nav_hover{
+	display: block;
+}
+
+.nav_hover>a:hover {
+    color: #00b7f4;
+}
+
+
+
+.login{
+	width: 234px;
+	height: 80px;
+	float: right;
+	/*background-color: red;*/
+}
+.login div{
+	float: left;
+}
+.login_img{
+	width: 52px;
+	height: 52px;
+	border-radius:50% ;
+	background-color: #101215;
+	background-image: url(../img/sprites/icons.png);
+	background-position: 13px -451px;;
+	position: relative;
+	top: 13px;
+	border: 1px solid #232121;
+}
+.login_word{
+	width: 160px;
+	height: 41px;
+	position: relative;
+	top: 15px;
+	left: 13px;
+}
+.login_word>p{
+	font-size: 18px;
+	color: white;
+	margin-bottom:3px ;
+
+}
+.login_word>p>a{
+	color: #00b7f4;
+}
+
+.login_word>span{
+	display: block;
+	font-size: 12px;
+	color: #898989;
+	text-align: left;
+	
+}

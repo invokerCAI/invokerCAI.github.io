@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: no-repeat center;
+}
+body{
+	width: 100%;
+	background: no-repeat center ;
+	background: url(../img/concent/main.bg.png);
+	
+}
+
+li{
+	list-style: none;
+}
+a{
+    text-decoration:none
+}
+span{
+	text-align: center;
+}
+
+
+.box{
+	
+	width: 100%;
+	
+}
+
+.hezi_top{
+	font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    margin-bottom:10px ;
+}
+
+
+/*各个分区内容的顶部   icon 样式*/
+.div_top_icon{
+	display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../img/sprites/data2.home.icons.png);
+   
+}
+/*各个分区内容的顶部   文字  样式*/
+.div_top_word{
+	display: inline-block;
+
+    height: 35px;
+    margin-left: -10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+	
+}
+
+/*各个分区内容的顶部   div  样式*/
+.div_top_right{
+	float: right;
+    font-size: 12px;
+}
+/*各个分区内容的顶部  更多字体（a标签）  样式*/
+.div_top_right_word{
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    color: darkgray;
+    vertical-align: middle;
+}
+/*各个分区内容的顶部  三角符号  样式*/
+.div_top_right_icon{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    vertical-align: middle;
+    background-image: url(../img/sprites/data2.home.icons.png);
+    background-position: -3px -789px;
+}
+/*各个分区内容的顶部  鼠标悬浮  效果*/
+.div_top_right:hover a{
+    color: #00b7f4;	
+}
+/*各个分区内容的顶部  鼠标悬浮  效果*/
+.div_top_right:hover span{
+    background-position:-3px -776px ;
+}
+
+
